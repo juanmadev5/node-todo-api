@@ -1,0 +1,31 @@
+### USE REST Client in VS Code
+
+POST http://localhost:3000/tasks 
+content-type: application/json
+
+{
+    "title": "Aprender Node.js",
+    "done" : false
+}
+
+###
+
+POST http://localhost:3000/tasks 
+content-type: application/json
+
+{
+    "title": "Aprender Java",
+    "done" : false
+}
+
+### Replace after tasks/ with its corresponding ID
+PUT http://localhost:3000/tasks/1748208400749
+content-type: application/json
+
+{
+    "done": true
+}
+
+### Replace after tasks/ with its corresponding ID
+DELETE http://localhost:3000/tasks/1748208400749
+content-type: application/json

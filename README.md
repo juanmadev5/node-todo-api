@@ -166,9 +166,10 @@ DELETE http://localhost:3000/tasks/ID_AQUI
 
 ```
 .
+├── methods.http
+├── package.json
 ├── server.js
-├── tasks.json
-└── methods.http
+└── tasks.json
 ```
 
 ---
